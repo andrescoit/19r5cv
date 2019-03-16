@@ -28,7 +28,9 @@ def main():
         dilated_image = cv2.dilate(canny_image,kernel,iterations=1)
 
         # Displaying Image
-        contours, h = cv2.findContours(dilated_image, 1, 2)
+
+        #contours, h = cv2.findContours(dilated_image, 1, 2)
+        _, contours, h = cv2.findContours(dilated_image, 1, 2)
         contours= sorted(contours, key = cv2.contourArea, reverse = True)[:1]
         pt = (180, 3 * img.shape[0] // 4)
         for cnt in contours:
