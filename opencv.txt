@@ -10,3 +10,5 @@ http://sites.ieee.org/r5annualmtg2018/files/2018/09/2019-Robotics-Competition-Ru
 https://www.youtube.com/watch?v=HNfPbw-1e_w
 https://www.youtube.com/watch?v=2cQK_brSVvo
 http://r5conferences.org/competitions/robotics-competition/
+https://www.learnopencv.com/color-spaces-in-opencv-cpp-python/
+https://learndeltax.blogspot.com/2016/05/3d-object-detection-using-opencv-python.html?m=1
